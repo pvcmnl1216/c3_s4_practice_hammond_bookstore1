@@ -12,13 +12,17 @@ import com.niit.jdp.Book;
 public class BookImpl {
     public static void main(String[] args) {
         Book book = new Book();
+        // Call the display method to display the variables.
+        book.displayBookDetail();
+
+        // Call the setter method to set the variables and display it.
         book.setTitle("Do your self");
         System.out.println("book.title = " + book.title);
         book.setIsbnNumber("23456");
         System.out.println("book.setIsbnNumber; = " + book.isbnNumber);
         book.setDescription("Mind your own business");
         System.out.println("book.description = " + book.description);
-        book.setPrice(499);
+        book.setPrice(1499);
         System.out.println("book.price = " + book.price);
         Author author = new Author();
         author.setAuthorName("Meshach");

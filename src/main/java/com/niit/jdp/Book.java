@@ -34,18 +34,27 @@ public class Book {
     }
 
 
-    public String displayBookDetail() {
-        String isbn = "23456";
+    public void displayBookDetail() {
+
+        String isbnNumber = "23456";
         String title = "Do your self";
         String description = "Mind your own business";
-        int price = 499;
+        int price = 1499;
         String yearOfPublication = "2022";
         Author author;
         String authorName = "Meshach";
         String authorThoughts = "unknown";
         String authorFavourites = "useless";
 
-        return displayBookDetail();
+        System.out.println("isbnNumber = " + isbnNumber);
+        System.out.println("title = " + title);
+        System.out.println("description = " + description);
+        System.out.println("price = " + price);
+        System.out.println("yearOfPublication = " + yearOfPublication);
+        System.out.println("authorName = " + authorName);
+        System.out.println("authorThoughts = " + authorThoughts);
+        System.out.println("authorFavourites = " + authorFavourites);
+
     }
 
 }
