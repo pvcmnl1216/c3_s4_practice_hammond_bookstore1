@@ -4,7 +4,6 @@
  * Praise The Lord
  */
 package com.niit.jdp;
-
 public class Author {
 
     public String authorName;
